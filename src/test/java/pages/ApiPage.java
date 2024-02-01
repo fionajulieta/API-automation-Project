@@ -17,10 +17,6 @@ public class ApiPage {
     String setURL, global_id;
     Response res;
 
-    /*public void prepareURL(){
-        System.out.println("Hello Prerape URL");
-    }*/
-
     public void prepareUrlFor(String url) {
         // System.out.println("Step from page : 1");
         switch (url) {

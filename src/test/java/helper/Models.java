@@ -23,8 +23,8 @@ public class Models {
     }
 
     public static Response postCreateUsers(String endpoint) {
-        String name = "Fiona Julieta Errat";
-        String gender = "female";
+        String name = "Childe";
+        String gender = "male";
         String email = generateRandomEmail();
         String status ="active";
         JSONObject payload = new JSONObject();
@@ -43,7 +43,7 @@ public class Models {
     }
     public static Response updateUser(String endpoint, String user_id){
         setupHeaders();
-        String name = "Felicia Nathalie";
+        String name = "Kafka";
         String gender = "female";
         String email = generateRandomEmail();
         String status ="active";
